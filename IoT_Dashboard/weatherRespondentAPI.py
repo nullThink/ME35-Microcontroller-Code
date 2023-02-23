@@ -3,7 +3,7 @@ import serial
 s = serial.Serial('COM4', baudrate=115200)
 
 import requests
-from sensitive.py import apiKey as key
+from sensitive.py import APIKey as key
 
 apiLink = 'http://api.weatherapi.com/v1/'
 apiKey = key
